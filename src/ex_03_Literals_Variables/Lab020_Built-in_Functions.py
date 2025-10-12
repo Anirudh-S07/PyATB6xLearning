@@ -1,4 +1,4 @@
-# Built In -Functions
+# Built-In -Functions
 # Pre defined given by the PYthon guys for you to use it
 
 # max()
