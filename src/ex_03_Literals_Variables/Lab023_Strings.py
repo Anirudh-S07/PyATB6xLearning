@@ -13,5 +13,3 @@ print(type(c1))
 print(len(name))
 print(name.upper())
 print(name.lower())
-
-
