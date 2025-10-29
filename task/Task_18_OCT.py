@@ -65,5 +65,3 @@ while wait_time < 5:
     wait_time += 1
 if not page_loaded:
     print("❌ Failed Page did not load")
-
-
