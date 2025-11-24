@@ -16,6 +16,7 @@ class ChromeBrowser(BrowserManger):
         # t = ChromeDriver()
         print("We are starting the chrome")
 
+
 tc = ChromeBrowser()
 tc.start()
 tc.stop()

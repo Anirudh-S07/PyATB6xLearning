@@ -1,11 +1,13 @@
 from abc import ABC, abstractmethod
 
+
 class GearBox(ABC):
     @abstractmethod
-    def setGear(self):
+    def setgear(self):
         pass
 
-class Engine:
+
+class Engine(ABC):
     @abstractmethod
     def start(self):
         pass
@@ -14,7 +16,8 @@ class Engine:
     def stop(self):
         pass
 
-class Car(Engine,GearBox):
+
+class Car(Engine, GearBox):
 
     def start(self):
         print("Starting")
@@ -22,30 +25,13 @@ class Car(Engine,GearBox):
     def stop(self):
         print("Stop")
 
-    def setGear(self):
+    def setgear(self):
         print("Gearbox is ready")
 
     def drive(self):
         self.start()
-        self.setGear()
+        self.setgear()
         self.stop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 tesla = Car()

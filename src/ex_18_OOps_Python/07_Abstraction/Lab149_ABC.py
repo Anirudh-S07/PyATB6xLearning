@@ -7,6 +7,7 @@ class ExcelReader(ABC):
     def readFromExcel(self):
         pass
 
+
 class Browser(ExcelReader):
     @abstractmethod
     def startBrowser(self):
@@ -15,6 +16,7 @@ class Browser(ExcelReader):
     @abstractmethod
     def stopBrowser(self):
         pass
+
 
 class TC1(Browser):
     def startBrowser(self):
@@ -30,23 +32,6 @@ class TC1(Browser):
         self.startBrowser()
         self.readFromExcel()
         self.stopBrowser()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 tc1 = TC1()
