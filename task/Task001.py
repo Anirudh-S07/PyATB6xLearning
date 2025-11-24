@@ -1,4 +1,1 @@
-print("Pramod", 123, "Jal", "Kat", sep='*', end='_')
-
-
-
+print("Pramod", 123, "Amit", "John", sep='*',end="_")
